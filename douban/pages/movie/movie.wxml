@@ -1,0 +1,15 @@
+<scroll-view>
+  <view class='content'>
+    <view class='img'><image class="poster" src="{{movie.images.large}}"></image></view>  
+    <view class='title'><text class='sub-title'>{{movie.original_title}}({{movie.year}})</text></view>
+    <view class='about'>
+      <view><text>评分:{{movie.rating.average}}</text></view>
+      <view><text>导演:{{movie.rating.average}}</text></view>
+      <view><text class='artists'>主演:<text wx:for="{{movie.directors}}">{{item.name}}</text></text></view>
+    </view>
+    <view class='summary'>
+      <view><text>摘要:</text></view>
+      <view><text>{{movie.summary}}</text></view>
+    </view>
+  </view>
+</scroll-view>

@@ -1,0 +1,4 @@
+/* pages/search/search.wxss */
+.page-header .page-header-text{
+  text-align: center;
+}
